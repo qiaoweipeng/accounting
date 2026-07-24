@@ -1,0 +1,2270 @@
+[
+  {
+    "code": "1001",
+    "name": "库存现金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业的库存现金"
+  },
+  {
+    "code": "1002",
+    "name": "银行存款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业存入银行或其他金融机构的各种款项"
+  },
+  {
+    "code": "1003",
+    "name": "存放中央银行款项",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "银行",
+    "description": "核算企业（银行）存放于中国人民银行的各种款项"
+  },
+  {
+    "code": "1011",
+    "name": "存放同业",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "银行",
+    "description": "核算企业（银行）存放于境内、境外银行和非银行金融机构的款项"
+  },
+  {
+    "code": "1012",
+    "name": "其他货币资金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业的银行汇票存款、银行本票存款、信用卡存款、信用证保证金存款、存出投资款、外埠存款等其他货币资金"
+  },
+  {
+    "code": "1021",
+    "name": "结算备付金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "证券公司",
+    "description": "核算企业（证券）为证券交易的资金清算与交收而存入指定清算代理机构的款项"
+  },
+  {
+    "code": "1031",
+    "name": "存出保证金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）因办理业务需要存出或交纳的各种保证金款项"
+  },
+  {
+    "code": "1101",
+    "name": "交易性金融资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业为交易目的所持有的债券投资、股票投资、基金投资等交易性金融资产的公允价值",
+    "children": [
+      {
+        "code": "110101",
+        "name": "股票",
+        "category": "资产类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为交易目的所持有的股票投资"
+      },
+      {
+        "code": "110102",
+        "name": "债券",
+        "category": "资产类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为交易目的所持有的债券投资"
+      },
+      {
+        "code": "110103",
+        "name": "基金",
+        "category": "资产类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为交易目的所持有的基金投资"
+      }
+    ]
+  },
+  {
+    "code": "1111",
+    "name": "买入返售金融资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业（金融）按照返售协议约定先买入再按固定价格返售的票据、证券、贷款等金融资产所融出的资金"
+  },
+  {
+    "code": "1121",
+    "name": "应收票据",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业因销售商品、提供劳务等而收到的商业汇票"
+  },
+  {
+    "code": "1122",
+    "name": "应收账款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业因销售商品、提供劳务等经营活动应收取的款项"
+  },
+  {
+    "code": "1123",
+    "name": "预付账款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业按照合同规定预付的款项"
+  },
+  {
+    "code": "1131",
+    "name": "应收股利",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业应收取的现金股利和应收取其他单位分配的利润"
+  },
+  {
+    "code": "1132",
+    "name": "应收利息",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业交易性金融资产、持有至到期投资等应收取的利息"
+  },
+  {
+    "code": "1201",
+    "name": "应收代位追偿款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）按照原保险合同约定承担赔付保险金责任后确认的代位追偿款"
+  },
+  {
+    "code": "1211",
+    "name": "应收分保账款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（再保险分出人）从事再保险业务应收取的款项"
+  },
+  {
+    "code": "1212",
+    "name": "应收分保合同准备金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（再保险分出人）从事再保险业务确认的应收分保未到期责任准备金"
+  },
+  {
+    "code": "1221",
+    "name": "其他应收款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业除应收票据、应收账款、预付账款、应收股利、应收利息等以外的其他各种应收及暂付款项"
+  },
+  {
+    "code": "1231",
+    "name": "坏账准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业应收款项的坏账准备",
+    "children": [
+      {
+        "code": "123101",
+        "name": "计提应收账款准备",
+        "category": "资产类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业应收账款的坏账准备"
+      },
+      {
+        "code": "123102",
+        "name": "计提其他应收款准备",
+        "category": "资产类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业其他应收款的坏账准备"
+      }
+    ]
+  },
+  {
+    "code": "1301",
+    "name": "贴现资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "银行",
+    "description": "核算企业（银行）办理商业票据的贴现、转贴现等业务所融出的资金"
+  },
+  {
+    "code": "1302",
+    "name": "拆出资金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）拆借给境内、境外其他金融机构的款项"
+  },
+  {
+    "code": "1303",
+    "name": "贷款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "银行",
+    "description": "核算企业（银行）按规定发放的各种客户贷款"
+  },
+  {
+    "code": "1304",
+    "name": "贷款损失准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "银行",
+    "description": "核算企业（银行）贷款的减值准备"
+  },
+  {
+    "code": "1311",
+    "name": "代理兑付证券",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（证券、银行等）接受委托代理兑付到期的证券"
+  },
+  {
+    "code": "1321",
+    "name": "代理业务资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业不承担风险的代理业务形成的资产"
+  },
+  {
+    "code": "1401",
+    "name": "材料采购",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业采用计划成本进行材料日常核算而购入材料的采购成本"
+  },
+  {
+    "code": "1402",
+    "name": "在途物资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业采用实际成本进行材料、商品等物资的日常核算、货款已付尚未验收入库的在途物资的采购成本"
+  },
+  {
+    "code": "1403",
+    "name": "原材料",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业库存的各种材料，包括原料及主要材料、辅助材料、外购半成品、修理用备件、包装材料、燃料等"
+  },
+  {
+    "code": "1404",
+    "name": "材料成本差异",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业采用计划成本进行日常核算的材料计划成本与实际成本的差额"
+  },
+  {
+    "code": "1405",
+    "name": "库存商品",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业库存的各种商品的实际成本或计划成本"
+  },
+  {
+    "code": "1406",
+    "name": "发出商品",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业商品销售不满足收入确认条件但已发出商品的实际成本或计划成本"
+  },
+  {
+    "code": "1407",
+    "name": "商品进销差价",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "商业企业",
+    "description": "核算企业采用售价进行日常核算的商品售价与进价之间的差额"
+  },
+  {
+    "code": "1408",
+    "name": "委托加工物资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业委托外单位加工的各种材料、商品等物资的实际成本"
+  },
+  {
+    "code": "1411",
+    "name": "周转材料",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业周转材料的计划成本或实际成本，包括包装物、低值易耗品等"
+  },
+  {
+    "code": "1421",
+    "name": "消耗性生物资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "农业企业",
+    "description": "核算企业（农业）持有的消耗性生物资产的实际成本"
+  },
+  {
+    "code": "1431",
+    "name": "贵金属",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）持有的黄金、白银等贵金属存货的成本"
+  },
+  {
+    "code": "1441",
+    "name": "抵债资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）依法取得并准备按有关规定进行处置的实物抵债资产的成本"
+  },
+  {
+    "code": "1451",
+    "name": "损余物资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）按照原保险合同约定承担赔偿保险金责任后取得的损余物资成本"
+  },
+  {
+    "code": "1461",
+    "name": "融资租赁资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "租赁企业",
+    "description": "核算企业（租赁）为开展融资租赁业务取得资产的成本"
+  },
+  {
+    "code": "1462",
+    "name": "使用权资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业使用权资产的成本"
+  },
+  {
+    "code": "1463",
+    "name": "使用权资产累计折旧",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业使用权资产的累计折旧"
+  },
+  {
+    "code": "1464",
+    "name": "使用权资产减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业使用权资产的减值准备"
+  },
+  {
+    "code": "1471",
+    "name": "存货跌价准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业存货的跌价准备"
+  },
+  {
+    "code": "1473",
+    "name": "合同资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业已向客户转让商品而有权收取对价的权利"
+  },
+  {
+    "code": "1474",
+    "name": "合同资产减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算合同资产的减值准备"
+  },
+  {
+    "code": "1477",
+    "name": "合同取得成本",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业取得合同发生的、预计能够收回的增量成本"
+  },
+  {
+    "code": "1478",
+    "name": "合同取得成本减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算与合同取得成本有关的资产的减值准备"
+  },
+  {
+    "code": "1485",
+    "name": "应收退货成本",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算销售商品时预期将退回商品的账面价值，扣除预计发生的成本后的余额"
+  },
+  {
+    "code": "1501",
+    "name": "持有至到期投资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业持有至到期投资的摊余成本"
+  },
+  {
+    "code": "1502",
+    "name": "持有至到期投资减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业持有至到期投资的减值准备"
+  },
+  {
+    "code": "1503",
+    "name": "可供出售金融资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业可供出售金融资产的公允价值"
+  },
+  {
+    "code": "1504",
+    "name": "债权投资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业以摊余成本计量的债权投资的账面余额"
+  },
+  {
+    "code": "1505",
+    "name": "债权投资减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业以摊余成本计量的债权投资的减值准备"
+  },
+  {
+    "code": "1506",
+    "name": "其他债权投资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业按照企业会计准则分类为以公允价值计量且其变动计入其他综合收益的金融资产"
+  },
+  {
+    "code": "1507",
+    "name": "其他债权投资减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业其他债权投资的减值准备"
+  },
+  {
+    "code": "1508",
+    "name": "其他权益工具投资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业指定为以公允价值计量且其变动计入其他综合收益的非交易性权益工具投资"
+  },
+  {
+    "code": "1511",
+    "name": "长期股权投资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业持有的采用成本法和权益法核算的长期股权投资"
+  },
+  {
+    "code": "1512",
+    "name": "长期股权投资减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业长期股权投资的减值准备"
+  },
+  {
+    "code": "1521",
+    "name": "投资性房地产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业采用成本模式计量的投资性房地产的成本，以及采用公允价值模式计量的投资性房地产的公允价值"
+  },
+  {
+    "code": "1531",
+    "name": "长期应收款",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业的长期应收款项"
+  },
+  {
+    "code": "1532",
+    "name": "未实现融资收益",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业分期计入租赁收入或利息收入的未实现融资收益"
+  },
+  {
+    "code": "1541",
+    "name": "存出资本保证金",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）按规定比例缴存的资本保证金"
+  },
+  {
+    "code": "1601",
+    "name": "固定资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业持有的固定资产原价"
+  },
+  {
+    "code": "1602",
+    "name": "累计折旧",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业固定资产的累计折旧"
+  },
+  {
+    "code": "1603",
+    "name": "固定资产减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业固定资产的减值准备"
+  },
+  {
+    "code": "1604",
+    "name": "在建工程",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业基建、更新改造等在建工程发生的支出"
+  },
+  {
+    "code": "1605",
+    "name": "工程物资",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业为在建工程准备的各种物资的成本"
+  },
+  {
+    "code": "1606",
+    "name": "固定资产清理",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业因出售、报废、毁损、对外投资、非货币性资产交换、债务重组等原因转出的固定资产价值以及在清理过程中发生的费用等"
+  },
+  {
+    "code": "1611",
+    "name": "未担保余值",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "租赁企业",
+    "description": "核算企业（租赁）采用融资租赁方式租出资产的未担保余值"
+  },
+  {
+    "code": "1621",
+    "name": "生产性生物资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "农业企业",
+    "description": "核算企业（农业）持有的生产性生物资产的原价"
+  },
+  {
+    "code": "1622",
+    "name": "生产性生物资产累计折旧",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "农业企业",
+    "description": "核算企业（农业）对生产性生物资产计提的累计折旧"
+  },
+  {
+    "code": "1623",
+    "name": "公益性生物资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "农业企业",
+    "description": "核算企业（农业）持有的公益性生物资产的实际成本"
+  },
+  {
+    "code": "1631",
+    "name": "油气资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "石油天然气开采企业",
+    "description": "核算企业（石油天然气开采）持有的矿区权益和油气井及相关设施的原价"
+  },
+  {
+    "code": "1632",
+    "name": "累计折耗",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "石油天然气开采企业",
+    "description": "核算企业（石油天然气开采）对油气资产计提的累计折耗"
+  },
+  {
+    "code": "1701",
+    "name": "无形资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业持有的无形资产成本"
+  },
+  {
+    "code": "1702",
+    "name": "累计摊销",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业对使用寿命有限的无形资产计提的累计摊销"
+  },
+  {
+    "code": "1703",
+    "name": "无形资产减值准备",
+    "category": "资产类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业无形资产的减值准备"
+  },
+  {
+    "code": "1711",
+    "name": "商誉",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业合并中形成的商誉价值"
+  },
+  {
+    "code": "1801",
+    "name": "长期待摊费用",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业已经发生但应由本期和以后各期负担的分摊期限在一年以上的各项费用"
+  },
+  {
+    "code": "1811",
+    "name": "递延所得税资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业确认的可抵扣暂时性差异产生的递延所得税资产"
+  },
+  {
+    "code": "1821",
+    "name": "独立账户资产",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）对分拆核算的投资连结产品不属于风险保障部分确认的独立账户资产价值"
+  },
+  {
+    "code": "1901",
+    "name": "待处理财产损溢",
+    "category": "资产类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业在清查财产过程中查明的各种财产盘盈、盘亏和毁损的价值"
+  },
+  {
+    "code": "2001",
+    "name": "短期借款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业向银行或其他金融机构等借入的期限在一年以下（含一年）的各种借款"
+  },
+  {
+    "code": "2002",
+    "name": "存入保证金",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）收到客户存入的各种保证金"
+  },
+  {
+    "code": "2003",
+    "name": "拆入资金",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）从境内、境外金融机构拆入的款项"
+  },
+  {
+    "code": "2004",
+    "name": "向中央银行借款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "银行",
+    "description": "核算企业（银行）向中央银行借入的款项"
+  },
+  {
+    "code": "2011",
+    "name": "吸收存款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "银行",
+    "description": "核算企业（银行）吸收的除同业存放款项以外的其他各种存款"
+  },
+  {
+    "code": "2012",
+    "name": "同业存放",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "银行",
+    "description": "核算企业（银行）吸收的境内、境外金融机构的存款"
+  },
+  {
+    "code": "2021",
+    "name": "贴现负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "银行",
+    "description": "核算企业（银行）办理商业票据的转贴现等业务所融入的资金"
+  },
+  {
+    "code": "2101",
+    "name": "交易性金融负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业承担的交易性金融负债的公允价值"
+  },
+  {
+    "code": "2111",
+    "name": "卖出回购金融资产款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）按照回购协议先卖出再按固定价格买入的票据、证券、贷款等金融资产所融入的资金"
+  },
+  {
+    "code": "2201",
+    "name": "应付票据",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业购买材料、商品和接受劳务供应等开出、承兑的商业汇票"
+  },
+  {
+    "code": "2202",
+    "name": "应付账款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业因购买材料、商品和接受劳务等经营活动应支付的款项"
+  },
+  {
+    "code": "2203",
+    "name": "预收账款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业按照合同规定预收的款项"
+  },
+  {
+    "code": "2205",
+    "name": "合同负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业已收或应收客户对价而应向客户转让商品的义务"
+  },
+  {
+    "code": "2211",
+    "name": "应付职工薪酬",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业根据有关规定应付给职工的各种薪酬"
+  },
+  {
+    "code": "2221",
+    "name": "应交税费",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业按照税法等规定计算应交纳的各种税费",
+    "children": [
+      {
+        "code": "222101",
+        "name": "应交增值税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业应交纳的增值税",
+        "children": [
+          {
+            "code": "22210101",
+            "name": "进项税额",
+            "category": "负债类",
+            "balanceDirection": "借",
+            "scope": "所有企业",
+            "description": "核算企业购进货物、劳务、服务、无形资产、不动产支付或负担的增值税额"
+          },
+          {
+            "code": "22210102",
+            "name": "已交税金",
+            "category": "负债类",
+            "balanceDirection": "借",
+            "scope": "所有企业",
+            "description": "核算企业当月已交纳的增值税额"
+          },
+          {
+            "code": "22210103",
+            "name": "转出未交增值税",
+            "category": "负债类",
+            "balanceDirection": "借",
+            "scope": "所有企业",
+            "description": "核算企业月末转出当月应交未交的增值税"
+          },
+          {
+            "code": "22210104",
+            "name": "减免税款",
+            "category": "负债类",
+            "balanceDirection": "借",
+            "scope": "所有企业",
+            "description": "核算企业按规定准予减免的增值税额"
+          },
+          {
+            "code": "22210105",
+            "name": "销项税额",
+            "category": "负债类",
+            "balanceDirection": "贷",
+            "scope": "所有企业",
+            "description": "核算企业销售货物、劳务、服务、无形资产、不动产应收取的增值税额"
+          },
+          {
+            "code": "22210106",
+            "name": "出口退税",
+            "category": "负债类",
+            "balanceDirection": "贷",
+            "scope": "所有企业",
+            "description": "核算企业出口货物退回的增值税额"
+          },
+          {
+            "code": "22210107",
+            "name": "进项税额转出",
+            "category": "负债类",
+            "balanceDirection": "贷",
+            "scope": "所有企业",
+            "description": "核算企业购进货物、在产品、产成品等发生非正常损失以及其他原因而不应从销项税额中抵扣，按规定转出的进项税额"
+          },
+          {
+            "code": "22210108",
+            "name": "出口抵减内销产品应纳税额",
+            "category": "负债类",
+            "balanceDirection": "借",
+            "scope": "所有企业",
+            "description": "核算企业出口货物实行免抵退税办法的，按规定计算的出口货物进项税抵减内销产品应纳税额的数额"
+          },
+          {
+            "code": "22210109",
+            "name": "转出多交增值税",
+            "category": "负债类",
+            "balanceDirection": "贷",
+            "scope": "所有企业",
+            "description": "核算企业月末转出当月多交的增值税"
+          },
+          {
+            "code": "22210110",
+            "name": "销项税额抵减",
+            "category": "负债类",
+            "balanceDirection": "借",
+            "scope": "所有企业",
+            "description": "核算企业按照现行增值税制度规定因扣减销售额而减少的销项税额"
+          }
+        ]
+      },
+      {
+        "code": "222102",
+        "name": "未交增值税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业月度终了从应交增值税明细科目转入当月应交未交、多交或预缴的增值税额，以及当月交纳以前期间未交的增值税额"
+      },
+      {
+        "code": "222103",
+        "name": "应交消费税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的消费税"
+      },
+      {
+        "code": "222104",
+        "name": "应交营业税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的营业税（已营改增，现较少使用）"
+      },
+      {
+        "code": "222105",
+        "name": "应交资源税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的资源税"
+      },
+      {
+        "code": "222106",
+        "name": "应交所得税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的企业所得税"
+      },
+      {
+        "code": "222107",
+        "name": "应交土地增值税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业转让国有土地使用权、地上建筑物及其附着物应交纳的土地增值税"
+      },
+      {
+        "code": "222108",
+        "name": "应交城市维护建设税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的城市维护建设税"
+      },
+      {
+        "code": "222109",
+        "name": "应交房产税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的房产税"
+      },
+      {
+        "code": "222110",
+        "name": "应交城镇土地使用税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的城镇土地使用税"
+      },
+      {
+        "code": "222111",
+        "name": "应交车船使用税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的车船税"
+      },
+      {
+        "code": "222112",
+        "name": "应交个人所得税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应代扣代缴的个人所得税"
+      },
+      {
+        "code": "222113",
+        "name": "教育费附加",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的教育费附加"
+      },
+      {
+        "code": "222114",
+        "name": "地方教育费附加",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的地方教育费附加"
+      },
+      {
+        "code": "222115",
+        "name": "矿产资源补偿费",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的矿产资源补偿费"
+      },
+      {
+        "code": "222116",
+        "name": "排污费",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的排污费"
+      },
+      {
+        "code": "222117",
+        "name": "印花税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定应交纳的印花税"
+      },
+      {
+        "code": "222118",
+        "name": "预交增值税",
+        "category": "负债类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业转让不动产、提供不动产经营租赁服务、提供建筑服务、采用预收款方式销售自行开发的房地产项目等，按规定应预缴的增值税额"
+      },
+      {
+        "code": "222119",
+        "name": "待抵扣进项税额",
+        "category": "负债类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业已取得增值税扣税凭证并经税务机关认证，按照现行增值税制度规定准予以后期间从销项税额中抵扣的进项税额"
+      },
+      {
+        "code": "222120",
+        "name": "待认证进项税额",
+        "category": "负债类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业由于未经税务机关认证而不得从当期销项税额中抵扣的进项税额"
+      },
+      {
+        "code": "222121",
+        "name": "待转销项税额",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业销售货物、加工修理修配劳务、服务、无形资产或不动产，已确认相关收入（或利得）但尚未发生增值税纳税义务而需于以后期间确认为销项税额的增值税额"
+      },
+      {
+        "code": "222122",
+        "name": "增值税留抵税额",
+        "category": "负债类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业兼有销售服务、无形资产或者不动产的，截止到纳入营改增试点之日前的增值税期末留抵税额"
+      },
+      {
+        "code": "222123",
+        "name": "简易计税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业采用简易计税方法发生的增值税计提、扣减、预缴、缴纳等业务"
+      },
+      {
+        "code": "222124",
+        "name": "转让金融商品应交增值税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业转让金融商品按规定应交纳的增值税"
+      },
+      {
+        "code": "222125",
+        "name": "代扣代交增值税",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业购进境内未设经营机构的境外单位或个人在境内的应税行为代扣代缴的增值税"
+      },
+      {
+        "code": "222126",
+        "name": "应交增值税（小规模纳税人专用）",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算小规模纳税人按规定应交纳的增值税"
+      }
+    ]
+  },
+  {
+    "code": "2231",
+    "name": "应付利息",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业按照合同约定应支付的利息"
+  },
+  {
+    "code": "2232",
+    "name": "应付股利",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业分配的现金股利或利润"
+  },
+  {
+    "code": "2241",
+    "name": "其他应付款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业除应付票据、应付账款、预收账款、应付职工薪酬、应付利息、应付股利、应交税费、长期应付款等以外的其他各项应付、暂收的款项"
+  },
+  {
+    "code": "2251",
+    "name": "应付保单红利",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（保险）按原保险合同约定应付未付投保人的红利"
+  },
+  {
+    "code": "2261",
+    "name": "应付分保账款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（再保险接受人）从事再保险业务应付未付的款项"
+  },
+  {
+    "code": "2311",
+    "name": "代理买卖证券款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "证券公司",
+    "description": "核算企业（证券）接受客户委托，代理客户买卖股票、债券和基金等有价证券而收到的款项"
+  },
+  {
+    "code": "2312",
+    "name": "代理承销证券款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "证券公司",
+    "description": "核算企业（证券）接受委托，采用承购包销方式或代销方式承销证券所形成的、应付证券发行人的承销资金"
+  },
+  {
+    "code": "2313",
+    "name": "代理兑付证券款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（证券、银行等）接受委托代理兑付证券收到的兑付资金"
+  },
+  {
+    "code": "2314",
+    "name": "代理业务负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业不承担风险的代理业务收到的款项"
+  },
+  {
+    "code": "2401",
+    "name": "递延收益",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业确认的应在以后期间计入当期损益的政府补助"
+  },
+  {
+    "code": "2501",
+    "name": "长期借款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业向银行或其他金融机构借入的期限在一年以上（不含一年）的各项借款"
+  },
+  {
+    "code": "2502",
+    "name": "应付债券",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业为筹集（长期）资金而发行债券的本金和利息",
+    "children": [
+      {
+        "code": "250201",
+        "name": "优先股",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业发行的优先股本金和利息"
+      },
+      {
+        "code": "250202",
+        "name": "永续股",
+        "category": "负债类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业发行的永续债本金和利息"
+      }
+    ]
+  },
+  {
+    "code": "2601",
+    "name": "未到期责任准备金",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（保险）提取的非寿险原保险合同未到期责任准备金"
+  },
+  {
+    "code": "2602",
+    "name": "保险责任准备金",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（保险）提取的原保险合同保险责任准备金"
+  },
+  {
+    "code": "2611",
+    "name": "保户储金",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（保险）收到投保人以储金本金增值作为保费收入的储金"
+  },
+  {
+    "code": "2621",
+    "name": "独立账户负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（保险）对分拆核算的投资连结产品不属于风险保障部分确认的独立账户负债"
+  },
+  {
+    "code": "2701",
+    "name": "长期应付款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业除长期借款和应付债券以外的其他各种长期应付款项"
+  },
+  {
+    "code": "2702",
+    "name": "未确认融资费用",
+    "category": "负债类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业应当分期计入利息费用的未确认融资费用"
+  },
+  {
+    "code": "2711",
+    "name": "专项应付款",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业取得政府作为企业所有者投入的具有专项或特定用途的款项"
+  },
+  {
+    "code": "2801",
+    "name": "预计负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业确认的对外提供担保、未决诉讼、产品质量保证、重组义务、亏损性合同等预计负债"
+  },
+  {
+    "code": "2901",
+    "name": "递延所得税负债",
+    "category": "负债类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业确认的应纳税暂时性差异产生的递延所得税负债"
+  },
+  {
+    "code": "3001",
+    "name": "清算资金往来",
+    "category": "共同类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）间业务往来的资金清算款项"
+  },
+  {
+    "code": "3002",
+    "name": "货币兑换",
+    "category": "共同类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）采用分账制核算外币交易所产生的不同币种之间的兑换"
+  },
+  {
+    "code": "3101",
+    "name": "衍生工具",
+    "category": "共同类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业衍生工具的公允价值及其变动形成的衍生资产或衍生负债"
+  },
+  {
+    "code": "3201",
+    "name": "套期工具",
+    "category": "共同类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业开展套期保值业务套期工具公允价值变动形成的资产或负债"
+  },
+  {
+    "code": "3202",
+    "name": "被套期项目",
+    "category": "共同类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业开展套期保值业务被套期项目公允价值变动形成的资产或负债"
+  },
+  {
+    "code": "4001",
+    "name": "实收资本",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业接受投资者投入的实收资本"
+  },
+  {
+    "code": "4002",
+    "name": "资本公积",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业收到投资者出资额超出其在注册资本中所占份额的部分"
+  },
+  {
+    "code": "4003",
+    "name": "其他权益工具",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业发行的除普通股以外的归类为权益工具的各种金融工具",
+    "children": [
+      {
+        "code": "400301",
+        "name": "优先股",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业发行的优先股本金"
+      },
+      {
+        "code": "400302",
+        "name": "永续债",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业发行的永续债本金"
+      }
+    ]
+  },
+  {
+    "code": "4004",
+    "name": "其他综合收益",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业根据企业会计准则规定未在当期损益中确认的各项利得和损失"
+  },
+  {
+    "code": "4101",
+    "name": "盈余公积",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业从净利润中提取的盈余公积",
+    "children": [
+      {
+        "code": "410101",
+        "name": "法定盈余公积",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按照法律规定从净利润中提取的法定盈余公积"
+      },
+      {
+        "code": "410102",
+        "name": "任意盈余公积",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按照股东会或类似权力机构决议从净利润中提取的任意盈余公积"
+      },
+      {
+        "code": "410103",
+        "name": "法定公益金",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按照法律规定从净利润中提取的用于职工集体福利设施的公益金（已较少使用）"
+      }
+    ]
+  },
+  {
+    "code": "4102",
+    "name": "一般风险准备",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）按规定从净利润中提取的一般风险准备"
+  },
+  {
+    "code": "4103",
+    "name": "本年利润",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业当期实现的净利润（或发生的净亏损）"
+  },
+  {
+    "code": "4104",
+    "name": "利润分配",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业利润的分配（或亏损的弥补）和历年分配（或弥补）后的余额",
+    "children": [
+      {
+        "code": "410401",
+        "name": "其他转入",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业用盈余公积弥补亏损等转入的利润分配"
+      },
+      {
+        "code": "410402",
+        "name": "提取法定盈余公积",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定从净利润中提取的法定盈余公积"
+      },
+      {
+        "code": "410403",
+        "name": "提取法定公益金",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定从净利润中提取的法定公益金"
+      },
+      {
+        "code": "410404",
+        "name": "提取任意盈余公积",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按规定从净利润中提取的任意盈余公积"
+      },
+      {
+        "code": "410405",
+        "name": "应付利润",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业分配给投资者的利润"
+      },
+      {
+        "code": "410406",
+        "name": "未分配利润",
+        "category": "权益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业历年累积的未分配利润（或未弥补亏损）"
+      }
+    ]
+  },
+  {
+    "code": "4105",
+    "name": "专项储备",
+    "category": "权益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业提取的专项储备"
+  },
+  {
+    "code": "4201",
+    "name": "库存股",
+    "category": "权益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业收购、转让或注销的本公司股份金额"
+  },
+  {
+    "code": "5001",
+    "name": "生产成本",
+    "category": "成本类",
+    "balanceDirection": "借",
+    "scope": "制造业",
+    "description": "核算企业进行工业性生产发生的各项生产成本"
+  },
+  {
+    "code": "5101",
+    "name": "制造费用",
+    "category": "成本类",
+    "balanceDirection": "借",
+    "scope": "制造业",
+    "description": "核算企业生产车间为生产产品和提供劳务而发生的各项间接费用"
+  },
+  {
+    "code": "5201",
+    "name": "劳务成本",
+    "category": "成本类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业对外提供劳务发生的成本"
+  },
+  {
+    "code": "5301",
+    "name": "研发支出",
+    "category": "成本类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业进行研究与开发无形资产过程中发生的各项支出"
+  },
+  {
+    "code": "5401",
+    "name": "合同履约成本",
+    "category": "成本类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业为履行当前或预期取得的合同所发生的成本"
+  },
+  {
+    "code": "5402",
+    "name": "合同结算",
+    "category": "成本类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业同客户办理结算的合同资产或合同负债",
+    "children": [
+      {
+        "code": "540201",
+        "name": "收入结转",
+        "category": "成本类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业按履约进度确认收入时结转的与收入对应的合同资产或负债"
+      },
+      {
+        "code": "540202",
+        "name": "价款结算",
+        "category": "成本类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业与客户办理合同价款结算时确认的合同资产或负债"
+      }
+    ]
+  },
+  {
+    "code": "5403",
+    "name": "机械作业",
+    "category": "成本类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业（建造承包商）及其内部独立核算的施工单位、机械站和运输队使用自有施工机械和运输设备进行机械作业所发生的各项费用"
+  },
+  {
+    "code": "5405",
+    "name": "合同履约成本减值准备",
+    "category": "成本类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算与合同履约成本有关的资产的减值准备"
+  },
+  {
+    "code": "6001",
+    "name": "主营业务收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业确认的销售商品、提供劳务等主营业务的收入"
+  },
+  {
+    "code": "6011",
+    "name": "利息收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）确认的利息收入"
+  },
+  {
+    "code": "6021",
+    "name": "手续费及佣金收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）确认的手续费及佣金收入"
+  },
+  {
+    "code": "6031",
+    "name": "保费收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（保险）确认的保费收入"
+  },
+  {
+    "code": "6041",
+    "name": "租赁收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "租赁企业",
+    "description": "核算企业（租赁）确认的租赁收入"
+  },
+  {
+    "code": "6051",
+    "name": "其他业务收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业确认的除主营业务活动以外的其他经营活动实现的收入"
+  },
+  {
+    "code": "6061",
+    "name": "汇兑损益",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "金融企业",
+    "description": "核算企业（金融）发生的外币交易因汇率变动而产生的汇兑损益"
+  },
+  {
+    "code": "6101",
+    "name": "公允价值变动损益",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业交易性金融资产、交易性金融负债等公允价值变动形成的应计入当期损益的利得或损失"
+  },
+  {
+    "code": "6111",
+    "name": "投资收益",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业确认的投资收益或投资损失"
+  },
+  {
+    "code": "6201",
+    "name": "摊回保险责任准备金",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（再保险分出人）从事再保险业务应向再保险接受人摊回的保险责任准备金"
+  },
+  {
+    "code": "6202",
+    "name": "摊回赔付支出",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（再保险分出人）向再保险接受人摊回的赔付成本"
+  },
+  {
+    "code": "6203",
+    "name": "摊回分保费用",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "保险公司",
+    "description": "核算企业（再保险分出人）向再保险接受人摊回的分保费用"
+  },
+  {
+    "code": "6301",
+    "name": "营业外收入",
+    "category": "损益类",
+    "balanceDirection": "贷",
+    "scope": "所有企业",
+    "description": "核算企业发生的各项营业外收入",
+    "children": [
+      {
+        "code": "630101",
+        "name": "非流动资产处置净收益",
+        "category": "损益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业出售固定资产、无形资产等非流动资产产生的处置净收益"
+      },
+      {
+        "code": "630102",
+        "name": "政府补助",
+        "category": "损益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业从政府无偿取得的货币性资产或非货币性资产"
+      },
+      {
+        "code": "630103",
+        "name": "捐赠收益",
+        "category": "损益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业接受捐赠产生的收益"
+      },
+      {
+        "code": "630104",
+        "name": "盘盈收益",
+        "category": "损益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业在财产清查中发现的盘盈资产经批准后的收益"
+      }
+    ]
+  },
+  {
+    "code": "6401",
+    "name": "主营业务成本",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业确认销售商品、提供劳务等主营业务收入时应结转的成本"
+  },
+  {
+    "code": "6402",
+    "name": "其他业务成本",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业确认的除主营业务活动以外的其他经营活动所发生的支出"
+  },
+  {
+    "code": "6403",
+    "name": "税金及附加",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业经营活动发生的消费税、城市维护建设税、资源税、教育费附加及房产税、土地使用税、车船使用税、印花税等相关税费"
+  },
+  {
+    "code": "6411",
+    "name": "利息支出",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）发生的利息支出"
+  },
+  {
+    "code": "6421",
+    "name": "手续费及佣金支出",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "金融企业",
+    "description": "核算企业（金融）发生的与其经营活动相关的各项手续费、佣金等支出"
+  },
+  {
+    "code": "6501",
+    "name": "提取未到期责任准备金",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）提取的非寿险原保险合同未到期责任准备金和再保险合同分保未到期责任准备金"
+  },
+  {
+    "code": "6502",
+    "name": "提取保险责任准备金",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）提取的原保险合同保险责任准备金"
+  },
+  {
+    "code": "6511",
+    "name": "赔付支出",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）支付的原保险合同赔付款项和再保险合同赔付款项"
+  },
+  {
+    "code": "6521",
+    "name": "保单红利支出",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）按原保险合同约定支付给投保人的红利"
+  },
+  {
+    "code": "6531",
+    "name": "退保金",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（保险）寿险原保险合同提前解除时按照约定应当退还投保人的保单现金价值"
+  },
+  {
+    "code": "6541",
+    "name": "分出保费",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（再保险分出人）向再保险接受人分出的保费"
+  },
+  {
+    "code": "6542",
+    "name": "分保费用",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "保险公司",
+    "description": "核算企业（再保险接受人）向再保险分出人支付的分保费用"
+  },
+  {
+    "code": "6601",
+    "name": "销售费用",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业销售商品和材料、提供劳务的过程中发生的各种费用",
+    "children": [
+      {
+        "code": "660101",
+        "name": "销售人员职工薪酬",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门人员的职工薪酬"
+      },
+      {
+        "code": "660102",
+        "name": "业务招待费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门发生的业务招待费用"
+      },
+      {
+        "code": "660103",
+        "name": "修理费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门固定资产的日常修理费用"
+      },
+      {
+        "code": "660104",
+        "name": "办公费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门发生的办公费用"
+      },
+      {
+        "code": "660105",
+        "name": "水电费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门发生的水电费用"
+      },
+      {
+        "code": "660106",
+        "name": "差旅费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门人员出差发生的差旅费用"
+      },
+      {
+        "code": "660107",
+        "name": "折旧费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门固定资产计提的折旧费用"
+      },
+      {
+        "code": "660108",
+        "name": "摊销费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售部门无形资产等计提的摊销费用"
+      },
+      {
+        "code": "660109",
+        "name": "展览费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为销售商品参加展览发生的费用"
+      },
+      {
+        "code": "660110",
+        "name": "商品维修费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售商品发生的维修费用"
+      },
+      {
+        "code": "660111",
+        "name": "运输费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售商品发生的运输费用"
+      },
+      {
+        "code": "660112",
+        "name": "装卸费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售商品发生的装卸费用"
+      },
+      {
+        "code": "660113",
+        "name": "包装费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业销售商品发生的包装费用"
+      },
+      {
+        "code": "660114",
+        "name": "保险费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为销售商品投保发生的保险费用"
+      },
+      {
+        "code": "660115",
+        "name": "广告费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为销售商品发生的广告费用"
+      },
+      {
+        "code": "660116",
+        "name": "业务宣传费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为销售商品发生的业务宣传费用"
+      }
+    ]
+  },
+  {
+    "code": "6602",
+    "name": "管理费用",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业为组织和管理企业生产经营所发生的管理费用",
+    "children": [
+      {
+        "code": "660201",
+        "name": "管理人员职工薪酬",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门人员的职工薪酬"
+      },
+      {
+        "code": "660202",
+        "name": "业务招待费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门发生的业务招待费用"
+      },
+      {
+        "code": "660203",
+        "name": "修理费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门固定资产的日常修理费用"
+      },
+      {
+        "code": "660204",
+        "name": "办公费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门发生的办公费用"
+      },
+      {
+        "code": "660205",
+        "name": "水电费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门发生的水电费用"
+      },
+      {
+        "code": "660206",
+        "name": "差旅费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门人员出差发生的差旅费用"
+      },
+      {
+        "code": "660207",
+        "name": "折旧费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门固定资产计提的折旧费用"
+      },
+      {
+        "code": "660208",
+        "name": "摊销费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门无形资产等计提的摊销费用"
+      },
+      {
+        "code": "660209",
+        "name": "开办费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业在筹建期间内发生的开办费用"
+      },
+      {
+        "code": "660210",
+        "name": "研究费用",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业进行研究与开发无形资产过程中发生的、不满足资本化条件的支出"
+      },
+      {
+        "code": "660211",
+        "name": "咨询费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业向外部机构支付的咨询费用"
+      },
+      {
+        "code": "660212",
+        "name": "长期待摊费用摊销",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门长期待摊费用的摊销额"
+      },
+      {
+        "code": "660213",
+        "name": "租赁费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业管理部门租入资产发生的租赁费用"
+      }
+    ]
+  },
+  {
+    "code": "6603",
+    "name": "财务费用",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业为筹集生产经营所需资金等而发生的筹资费用",
+    "children": [
+      {
+        "code": "660301",
+        "name": "利息费用",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业为筹集生产经营所需资金等而发生的利息支出"
+      },
+      {
+        "code": "660302",
+        "name": "手续费",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业办理银行业务等支付的手续费用"
+      },
+      {
+        "code": "660303",
+        "name": "汇兑损益",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业外币交易因汇率变动产生的汇兑损益"
+      },
+      {
+        "code": "660304",
+        "name": "现金折扣",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业发生的现金折扣"
+      },
+      {
+        "code": "660305",
+        "name": "利息收入",
+        "category": "损益类",
+        "balanceDirection": "贷",
+        "scope": "所有企业",
+        "description": "核算企业银行存款等产生的利息收入"
+      }
+    ]
+  },
+  {
+    "code": "6604",
+    "name": "勘探费用",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "石油天然气开采企业",
+    "description": "核算企业（石油天然气开采）核算的油气勘探过程中发生的地质调查、物理化学勘探各项支出和非成功探井等支出"
+  },
+  {
+    "code": "6701",
+    "name": "资产减值损失",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业计提各项资产减值准备所形成的损失"
+  },
+  {
+    "code": "6702",
+    "name": "信用减值损失",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业按照企业会计准则要求计提的各项金融工具减值准备所形成的预期信用损失"
+  },
+  {
+    "code": "6711",
+    "name": "营业外支出",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业发生的各项营业外支出",
+    "children": [
+      {
+        "code": "671101",
+        "name": "非流动资产处置净损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业出售固定资产、无形资产等非流动资产产生的处置净损失"
+      },
+      {
+        "code": "671102",
+        "name": "赞助支出",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业发生的与生产经营活动无关的各种非广告性质赞助支出"
+      },
+      {
+        "code": "671103",
+        "name": "捐赠支出",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业对外捐赠产生的支出"
+      },
+      {
+        "code": "671104",
+        "name": "盘亏损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业在财产清查中发现的盘亏资产经批准后的损失"
+      },
+      {
+        "code": "671105",
+        "name": "坏账损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业确实无法收回的应收款项经批准后的损失"
+      },
+      {
+        "code": "671106",
+        "name": "存货毁损报废损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业存货因管理不善等原因造成的毁损、报废损失"
+      },
+      {
+        "code": "671107",
+        "name": "无法收回的长期债券投资损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业确实无法收回的长期债券投资损失"
+      },
+      {
+        "code": "671108",
+        "name": "无法收回的长期股权投资损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业确实无法收回的长期股权投资损失"
+      },
+      {
+        "code": "671109",
+        "name": "自然灾害等不可抗力因素造成的损失",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业因自然灾害等不可抗力因素造成的资产损失"
+      },
+      {
+        "code": "671110",
+        "name": "税收滞纳金",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业因违反税收法规被税务机关处以的滞纳金"
+      },
+      {
+        "code": "671111",
+        "name": "罚款支出",
+        "category": "损益类",
+        "balanceDirection": "借",
+        "scope": "所有企业",
+        "description": "核算企业因违反法律法规被处以的罚款支出"
+      }
+    ]
+  },
+  {
+    "code": "6801",
+    "name": "所得税费用",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业确认的应从当期利润总额中扣除的所得税费用"
+  },
+  {
+    "code": "6901",
+    "name": "以前年度损益调整",
+    "category": "损益类",
+    "balanceDirection": "借",
+    "scope": "所有企业",
+    "description": "核算企业本年度发生的调整以前年度损益的事项以及本年度发现的重要前期差错更正涉及调整以前年度损益的事项"
+  }
+]
