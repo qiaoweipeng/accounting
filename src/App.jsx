@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useMemo, useRef, useEffect } from 'react'
 import { Layout, Menu, Input, Button, Table, Tag, Space, Tooltip, Dropdown, Modal } from 'antd'
 import { SearchOutlined, FolderOpenOutlined, ExportOutlined } from '@ant-design/icons'
-import accountingData from './data/accounting_subjects.json'
+import accountingData from './data/accounting_subjects02.json'
 import { useAccountingStore } from './store'
 import './App.css'
 
