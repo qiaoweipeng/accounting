@@ -1,12 +1,48 @@
-# React + Vite
+# 会计从业人员模拟系统
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+基于 React + Ant Design 开发的会计科目管理系统。
 
-Currently, two official plugins are available:
+## 功能特性
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 会计科目树形表格展示
+- 类别筛选（资产类、负债类、共同类、权益类、成本类、损益类）
+- 科目搜索（支持编码和名称）
+- 列筛选（余额方向、适用范围）
+- 我的笔记（内嵌飞书文档）
+- 相关链接导航
 
-## Expanding the ESLint configuration
+## 技术栈
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Ant Design 5
+- Zustand（状态管理）
+- Vite
+
+## 快速开始
+
+```bash
+# 安装依赖
+pnpm install
+
+# 启动开发服务器
+pnpm dev
+
+# 构建生产版本
+pnpm build
+```
+
+## 项目结构
+
+```
+├── src/
+│   ├── App.jsx          # 主应用组件
+│   ├── main.jsx         # 入口文件
+│   ├── store.js         # Zustand状态管理
+│   ├── data/            # 数据文件
+│   │   └── accounting_subjects.json  # 会计科目数据
+│   ├── assets/          # 静态资源
+│   └── App.css          # 应用样式
+├── index.html
+├── package.json
+└── vite.config.js
+```
