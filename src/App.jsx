@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useMemo, useRef, useEffect } from 'react'
 import { Layout, Menu, Input, Button, Table, Tag, Space, Tooltip, Dropdown, Modal } from 'antd'
-import { SearchOutlined, FolderOpenOutlined } from '@ant-design/icons'
+import { SearchOutlined, FolderOpenOutlined, ExportOutlined } from '@ant-design/icons'
 import accountingData from './data/accounting_subjects.json'
 import { useAccountingStore } from './store'
 import './App.css'
@@ -318,63 +318,86 @@ function App() {
       {/* 主内容区 */}
       <Content style={{ padding: '84px 24px 24px', background: '#f5f5f5' }}>
         <div style={{ background: '#fff', borderRadius: '8px', padding: '24px', minHeight: 'calc(100vh - 160px)' }}>
-          {/* 搜索框和类别按钮区域 */}
-          <div style={{ marginBottom: 16, display: 'flex', alignItems: 'center', gap: 50 }}>
-            {/* 搜索框下拉展示搜索结果 */}
-            <Dropdown
-              open={searchOpen && searchResults.length > 0}
-              onOpenChange={setSearchOpen}
-              dropdownRender={() => (
-                <div style={{ width: 400, padding: 8, maxHeight: 400, overflow: 'auto' }}>
-                  <Table
-                    columns={searchColumns}
-                    dataSource={searchResults}
-                    rowKey={(record) => `${record.name}-${record.category}`}
-                    pagination={false}
-                    onRow={(record) => ({ onClick: () => handleSearchResultClick(record) })}
-                    size="small"
-                    bordered
-                    expandable={{ showExpandColumn: false }}
-                  />
-                </div>
-              )}
-            >
-              <Input.Search
-                placeholder="搜索会计科目（编码或名称）"
-                prefix={<SearchOutlined />}
-                value={searchText}
-                onChange={(e) => {
-                  setSearchText(e.target.value)
-                  if (e.target.value) setSearchOpen(true)
-                }}
-                allowClear
-                onClear={() => {
-                  setSearchText('')
-                  setSearchOpen(false)
-                }}
-                style={{ width: 300 }}
-                onFocus={() => {
-                  if (searchText) setSearchOpen(true)
-                }}
-                size="middle"
-              />
-            </Dropdown>
+          {/* 搜索框、类别按钮和导出按钮区域 */}
+          <div style={{ marginBottom: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 50 }}>
+              {/* 搜索框下拉展示搜索结果 */}
+              <Dropdown
+                open={searchOpen && searchResults.length > 0}
+                onOpenChange={setSearchOpen}
+                dropdownRender={() => (
+                  <div style={{ width: 400, padding: 8, maxHeight: 400, overflow: 'auto' }}>
+                    <Table
+                      columns={searchColumns}
+                      dataSource={searchResults}
+                      rowKey={(record) => `${record.name}-${record.category}`}
+                      pagination={false}
+                      onRow={(record) => ({ onClick: () => handleSearchResultClick(record) })}
+                      size="small"
+                      bordered
+                      expandable={{ showExpandColumn: false }}
+                    />
+                  </div>
+                )}
+              >
+                <Input.Search
+                  placeholder="搜索会计科目（编码或名称）"
+                  prefix={<SearchOutlined />}
+                  value={searchText}
+                  onChange={(e) => {
+                    setSearchText(e.target.value)
+                    if (e.target.value) setSearchOpen(true)
+                  }}
+                  allowClear
+                  onClear={() => {
+                    setSearchText('')
+                    setSearchOpen(false)
+                  }}
+                  style={{ width: 300 }}
+                  onFocus={() => {
+                    if (searchText) setSearchOpen(true)
+                  }}
+                  size="middle"
+                />
+              </Dropdown>
 
-            {/* 类别切换按钮组 */}
-            <div style={{ display: 'flex', alignItems: 'center' }}>
-              <Space.Compact orientation="horizontal">
-                {filteredCategories.map((category) => (
-                  <Button
-                    key={category.key}
-                    type={selectedCategory === category.key ? 'primary' : 'default'}
-                    onClick={() => setSelectedCategory(category.key)}
-                    size="middle"
-                  >
-                    {category.shortLabel}
-                  </Button>
-                ))}
-              </Space.Compact>
+              {/* 类别切换按钮组 */}
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <Space.Compact orientation="horizontal">
+                  {filteredCategories.map((category) => (
+                    <Button
+                      key={category.key}
+                      type={selectedCategory === category.key ? 'primary' : 'default'}
+                      onClick={() => setSelectedCategory(category.key)}
+                      size="middle"
+                    >
+                      {category.shortLabel}
+                    </Button>
+                  ))}
+                </Space.Compact>
+              </div>
             </div>
+
+            {/* 导出按钮 */}
+            <Button
+              type="primary"
+              icon={<ExportOutlined />}
+              onClick={() => {
+                const jsonContent = JSON.stringify(accountingData, null, 2)
+                const blob = new Blob([jsonContent], { type: 'application/json' })
+                const url = URL.createObjectURL(blob)
+                const a = document.createElement('a')
+                a.href = url
+                a.download = '会计科目数据.json'
+                document.body.appendChild(a)
+                a.click()
+                document.body.removeChild(a)
+                URL.revokeObjectURL(url)
+              }}
+              size="middle"
+            >
+              导出
+            </Button>
           </div>
 
           {/* 主表格区域 */}
